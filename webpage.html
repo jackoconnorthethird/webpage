@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--bootstrap css-->
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <!--custom css-->
+    <link rel="stylesheet" href="webpage.css">
+    
+
+    <title>RAI EXAMPLE</title>
+</head>
+
+<body>
+    
+    <div class="navbar-collapse collapse inverse" id="navbarheader">
+        <div class="container-fluid">
+            <div class="about">
+
+                <h4>Hello</h4>
+                <p class="text-muted">Welcome to the RAI Media home page. Scroll down to view all our companies.</p>
+            </div>
+            <div class="social">
+                <h4>Contact</h4>
+                <ul class="list-unstyled">
+                    <li><a href="https://twitter.com/raimediainc">Follow on Twitter</a></li>
+                    <li><a href="https://www.facebook.com/pages/category/Advertising-Marketing/RAI-Media-Inc-300715190346384/">Like on Facebook</a></li>
+                    <li><a href="https://raimediainc.com/why-rai">See more</a></li>
+                </ul>
+                
+            </div>
+            <script type="text/javascript">
+            var flag = 1;
+            function navbarheader(){
+                if(flag==1){
+                    document.getElementById("navbarheader").style.display="none";
+                    flag=0;
+                }
+                else{
+                    document.getElementById("navbarheader").style.display="block";
+                    flag=1;
+                }
+            }
+            </script>
+        </div>
+    </div>
+    </div>
+    <div class="navbar navbar-static-top navbar-dark bg-inverse">
+        <div class="container-fluid">
+                <h1 onclick="navbarheader()">&#9776;</h1>
+            
+        </div>
+    </div>
+
+        <section class="jumbotron text-xs-center">
+            <div class="container">
+                <h1 class="jumbotron-heading">RAI MEDIA</h1>
+                <p class="lead text-muted">you cant afford not to.</p>
+                <div>
+                    <!-- <a href="#" class="btn btn-info">Main call to action</a>
+                    <a href="#" class="btn btn-secondary">Secondary action</a> -->
+                </div>
+            </div>
+        </section>
+
+        <div class="album text-muted">
+            
+            <div class="container">
+
+                <div class="row">
+                    
+                        <div class="card">
+                            <img src="img/RAI-Media-1.png" alt="RAI">
+                            <p class="card-text"><a href="https://raimediainc.com/why-rai">RAI MEDIA</a>, The big daddy of Video Production, Social media Marketing, Email management and so much more.  </p>
+                        </div>
+                        <br>
+                        <div class="card">
+                            <img src="img/RAInew.png" alt="radioadvertisinginc">
+                            <p class="card-text"><a href="https://raichicago.com/">Radio Advertising inc</a>, need to reach as many ears as possible? Is there a better place than the radi? </p>
+                        </div>
+                        <br>
+                        <div class="card">
+                            <img src="img/logo_small.png" alt="databasebuilder">
+                            <p class="card-text">Ever try building your own database? Good luck. Use <a href="https://raimediainc.com/">DatabaseBuilder</a> and save yourself a headache. </p>
+                        </div>
+                
+                </div>
+
+            </div>
+        </div>
+        <br>
+    <!--JQuery first, then bootstrap JS-->
+        <footer class="text-muted">
+            <div class="container">
+                <p class="pull-xs-right">
+                    <button><a href="#">Back to top</a></button>
+                
+            </div>
+        </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="bower_components/bootsrap/dist/css/bootstrap.min.css"></script>
+</body>
+
+</html>

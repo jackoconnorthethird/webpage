@@ -1,0 +1,124 @@
+body{
+    align-content: center;
+}
+.navbar {
+    margin-bottom: 0;
+}
+.navbar-collapse .container-fluid {
+    padding: 2rem 2.5rem;
+    border-bottom: 1px solid black;
+}
+.navbar-collapse h4{
+    color: #818a91;
+}
+.navbar-collapse .text-muted{
+    color: #818a91;
+}
+ .about {
+    float: left;
+    max-width: 30rem;
+    margin-right: 3rem;
+
+}
+/*.social a{
+    font-weight: 500;
+    color: #eceeef;
+}
+.social a:hover {
+    color: #fff;
+} */
+
+.jumbotron {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin-bottom: 0;
+    background-color: #fff;
+    background-image: url('img/GlobalMap.png');
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: cover;
+
+}
+
+/* @media (min-width: 768px) {
+    .jumbotron {
+        padding-top: 6rem;
+        padding-bottom: 6rem;
+    }
+} */
+
+
+
+.jumbotron-heading {
+    font-weight: 300;
+}
+
+.jumbotron .container {
+    max-width: 40rem;
+    padding: 2rem;
+    color: black;
+
+    background: rgba(255,255,255,0.2);
+}
+.jumbotron p{
+    color: black;
+    text-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.album{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    
+    margin-bottom: 3rem;
+    align-content: center;
+}
+.album text-muted{
+    width: 100%;
+    align-content: center;
+    
+    
+}
+
+footer {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+footer p {
+    margin-bottom: .25rem;
+}
+.card {
+    float: left;
+    width: 33.333%;
+    padding: .75rem;
+    margin-bottom: 2rem;
+    border: 0;
+    align-content: center;
+
+}
+.card > img{
+    margin-bottom: .75rem;
+    max-width: 33%;
+    
+}
+.card-text{
+    font-size: 85%;
+
+}
+.row .card {
+    align-content: center;
+    width: 100%;
+    display: inline-block;
+    background-color: rgb(132, 114, 143);
+    margin: 0 auto;
+    border: 1px black solid;
+}
+.container{
+    width: 100%;
+    align-content: center;
+}
+.row .card p {
+    text-align: justify;
+    font-size: 18px;
+
+}
